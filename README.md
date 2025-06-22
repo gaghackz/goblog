@@ -42,7 +42,7 @@ blog-service/
 │   └── .env
 ├── go.mod
 └── go.sum
-
+```
 
 ---
 
@@ -94,4 +94,7 @@ This service follows a **Three-Layer Architecture** pattern:
 | **L** - Liskov Substitution   | Concrete types can replace interfaces seamlessly                        |
 | **I** - Interface Segregation | Each layer depends only on interfaces it uses                           |
 | **D** - Dependency Inversion  | High-level modules (Handler) depend on abstractions, not concrete Store |
+
+```
+
 ```
