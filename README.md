@@ -24,23 +24,27 @@ This project demonstrates:
 
 ## 🧱 Project Structure
 
-blog-service/\n
-├── cmd/ # Main entry point\n
-│ └── main.go\n
-├── handler/ # HTTP layer (controller)\n
-│ └── blog.go\n
-├── service/ # Business logic layer\n
-│ └── blog.go\n
-├── store/ # Data persistence layer\n
-│ └── blog.go\n
-├── model/ # Domain models\n
-│ └── blog.go\n
-├── factory/ # Dependency injection / DB init\n
-│ └── store_factory.go\n
-├── configs/ # .env configuration\n
-│ └── .env\n
-├── go.mod\n
-└── go.sum\n
+## 📁 Project Structure
+
+```
+blog-service/
+├── cmd/
+│   └── main.go
+├── handler/
+│   └── blog.go
+├── service/
+│   └── blog.go
+├── store/
+│   └── blog.go
+├── model/
+│   └── blog.go
+├── factory/
+│   └── store_factory.go
+├── configs/
+│   └── .env
+├── go.mod
+└── go.sum
+
 
 ---
 
@@ -92,3 +96,4 @@ This service follows a **Three-Layer Architecture** pattern:
 | **L** - Liskov Substitution   | Concrete types can replace interfaces seamlessly                        |
 | **I** - Interface Segregation | Each layer depends only on interfaces it uses                           |
 | **D** - Dependency Inversion  | High-level modules (Handler) depend on abstractions, not concrete Store |
+```
