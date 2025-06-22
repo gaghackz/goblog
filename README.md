@@ -24,23 +24,23 @@ This project demonstrates:
 
 ## 🧱 Project Structure
 
-blog-service/
-├── cmd/ # Main entry point
-│ └── main.go
-├── handler/ # HTTP layer (controller)
-│ └── blog.go
-├── service/ # Business logic layer
-│ └── blog.go
-├── store/ # Data persistence layer
-│ └── blog.go
-├── model/ # Domain models
-│ └── blog.go
-├── factory/ # Dependency injection / DB init
-│ └── store_factory.go
-├── configs/ # .env configuration
-│ └── .env
-├── go.mod
-└── go.sum
+blog-service/\n
+├── cmd/ # Main entry point\n
+│ └── main.go\n
+├── handler/ # HTTP layer (controller)\n
+│ └── blog.go\n
+├── service/ # Business logic layer\n
+│ └── blog.go\n
+├── store/ # Data persistence layer\n
+│ └── blog.go\n
+├── model/ # Domain models\n
+│ └── blog.go\n
+├── factory/ # Dependency injection / DB init\n
+│ └── store_factory.go\n
+├── configs/ # .env configuration\n
+│ └── .env\n
+├── go.mod\n
+└── go.sum\n
 
 ---
 
