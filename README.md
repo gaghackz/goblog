@@ -22,8 +22,6 @@ This project demonstrates:
 
 ---
 
-## 🧱 Project Structure
-
 ## 📁 Project Structure
 
 ```
